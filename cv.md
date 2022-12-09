@@ -17,3 +17,26 @@ I work as a radio engineer. I am interested in gaining new knowledge and develop
 - Turbo Pascal
 - Basic HTML and CSS
 - Basic JavaScript
+
+## Code Example
+
+**Convert number to reversed array of digits from Codewars:** Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+
+```javascript
+function digitize(n) {
+  let result = [];
+  for (let digit of n.toString()) {
+    result.unshift(Number(digit));
+  }
+  return result;
+}
+```
+
+## Education
+
+Tomsk State University of Control Systems and Radioelectronics, Radio Engineering
+
+## Languages
+
+- Russian Native
+- English Beginner
