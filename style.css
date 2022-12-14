@@ -1,3 +1,141 @@
-img {
-  width: 400px;
+@font-face {
+  font-family: 'Inter';
+  src: url("assets/fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Open';
+  src: url("assets/fonts/OpenSans-SemiBold.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+   background-color: #eaeaf8;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header a {
+  font-family: 'Inter';
+  font-size: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+}
+.header a:hover {
+  color: #c91313;
+}
+
+.header {
+  margin-bottom: 30px;
+  background-color: #9292a7;
+  width: 100%;
+}
+
+.profile-photo {
+  text-align: center;
+  vertical-align: center;
+  padding-bottom: 20px;
+}
+
+.profile-photo img {
+  object-fit: cover;
+  object-position: 0% 0%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid #5a5a63;
+  padding: 3px;
+}
+
+ body {
+  font-family: 'Inter';
+  min-height: 100vh;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-container {
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section {
+  margin: 10px 10px;
+  padding-bottom: 10px;
+  border-bottom-style: solid;
+  border-color: #5a5a63;
+  border-width: 2px;
+  width: 45%;
+}
+
+h1, h2 {
+  font-family: 'Open';
+  color: #5a5a63;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 12px;
+  text-align: center;
+  vertical-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+code {
+  font-size: 16px;
+}
+
+.section li::before {
+  content: "\2714";
+  margin-right: 7px;
+  color: #5a5a63;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  padding: 7px 20px;
+  color: #ffffff;
+  background: rgb(146,146,167);
+  background: linear-gradient(299deg, rgba(146,146,167,1) 0%, rgba(208,18,18,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: rgb(176, 182, 176);
 }
