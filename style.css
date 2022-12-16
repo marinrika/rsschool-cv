@@ -142,7 +142,7 @@ code {
 .footer a:hover {
   color: rgb(176, 182, 176);
 }
-.footer section {
+.section-none {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -152,10 +152,10 @@ code {
   border-bottom: none;
 }
 
-.footer section p {
+.section-none p {
   margin-right: 15px;
 }
 
-.footer section a {
+.section-none a {
   margin-right: 5px;
 }
