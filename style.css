@@ -7,6 +7,7 @@
   font-family: 'Open';
   src: url("assets/fonts/OpenSans-SemiBold.ttf");
 }
+
 * {
   box-sizing: border-box;
 }
@@ -31,6 +32,7 @@ html {
   text-decoration: none;
   align-items: center;
 }
+
 .header a:hover {
   color: #c91313;
 }
@@ -65,7 +67,6 @@ html {
 .container {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   min-height: 100vh;
   align-items: center;
   max-width: 950px;
@@ -77,7 +78,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  }
+}
 
 .section {
   margin: 10px 10px;
@@ -126,7 +127,6 @@ code {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  /* margin-top: 20px; */
   margin-top: auto;
   padding: 7px 20px;
   color: #ffffff;
@@ -141,4 +141,21 @@ code {
 
 .footer a:hover {
   color: rgb(176, 182, 176);
+}
+.footer section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
+
+.footer section p {
+  margin-right: 15px;
+}
+
+.footer section a {
+  margin-right: 5px;
 }
